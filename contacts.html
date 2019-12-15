@@ -31,27 +31,26 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-lg-8">
-                <div class="container bg-white w-xs-100 w-lg-75 mb-5">
+                <div class="container-fluid bg-white w-xs-100 mb-5 ml-auto flex-wrap">
                     <div class="row">
-                        <h3 class="ml-4 pt-4 text-info">About Me</h2>
+                        <h3 class="ml-4 pt-4 text-info">Contact Me</h2>
                     </div>
                     <hr />
-                    <div class="row">
-                        <div class="col-12">
-                            <img src="assets/images/Slack Photo.png" class="float-left img-fluid" alt="Kogan Pack Photo" id="koganPic">
-                            <p>
-                                Hi there! I'm originally from Nashville, TN, and I've lived here for most of my life. I'll just go ahead and come right out and say it: no, I do not enjoy country music. Shocking, I know. I do, however, enjoy most other kinds of music, binge watching cooking shows <span>(Looking at you, Great British Baking Show)</span>, and going out to bars with friends. Lately though I've been throwing myself head-first into learning web development.
-                            </p>
-                            <br>
-                            <p>
-                                Coding wasn't what I originally wanted to do: I have a bachelor's degree in English Literature from MTSU and I've been working since I graduated as a Legal Editor/Admin Assistant at the TN Dept. of Labor. I've found that isn't as fulfilling as I would like so, after a handful of my friends and former college classmates went through development bootcamps and had nothing but positive things to say, I became increasingly interested in the field.
-                            </p>
-                            <br>
-                            <p>
-                                I knew about three years ago that I wanted to take the plunge, so to speak, and attend a coding bootcamp; however, life kept getting in the way (until now). I've been teaching myself in the meantime with resources like codeAcademy, Mark Myers' "A Smarter Way To Learn" books, and spending as much time on w3schools as I can. But now I'm finally doing the real thing, and this portfolio is the product of all of that work and determination. 
-                            </p>
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="name">Name and Company:</label>
+                            <input type="name" class="form-control" id="name" placeholder="Bill G. of Microsoft">
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="billy.g@outlook.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea class="form-control" rows="5" id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -68,5 +67,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
