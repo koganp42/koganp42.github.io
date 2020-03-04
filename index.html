@@ -1,61 +1,402 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Kogan's Responsive Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-</head>
-
-<body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto">
-            <div class="inner">
-                <h3 class="masthead-brand">Kogan_P</h3>
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link active" href="index.html">Home</a>
-                    <!-- <a class="nav-link" href="contacts.html">Contact Me</a> -->
-                    <a class="nav-link" href="portfolio.html">Past Projects</a>
-                </nav>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>Kogan Pack's Portfolio</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+        <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="main_menu">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container box_1620">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li> 
+								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							</ul>
+						</div> 
+					</div>
+            	</nav>
             </div>
         </header>
-
-        <main role="main" class="inner cover my-5">
-            <h1 class="cover-heading">Hi, I'm Kogan Pack</h1>
-            <br>
-            <p class="lead">
-                    I am a full-stack web developer with experience in Javascript and an interest in learning Python next. Before getting into coding professionally, I had a career as a legal assistant/editor working for the State of Tennessee’s Department of Labor. Succeeding in that role for the 7 years I was there required attention to detail, a self-starting attitude, and the ability to work well in an office environment that was prone to abrupt change. 
-            </p>  
-            <p class="lead">        
-                    Those skills and my desire for work that challenges me to learn more led me to enroll in a coding bootcamp at Vanderbilt University and learn what I needed to turn my interest in technology into a lifelong passion for programming. I’m currently looking to work at a company where I can further develop my skills alongside a team of similarly motivated developers.
-            </p>
-            <br>
-            <h3 class="cover-heading">Send me an email:</h1>
-            <p class="lead">koganp42@gmail.com</p>
-            <h3 class="cover-heading"><a>Click to get a copy of my resume.</a></h3>
-            <
-        </main>
-
-        <footer class="mastfoot mt-auto">
-            <div class="inner icon-bar d-flex">
-                <a href="https://github.com/koganp42" class="github"><i class="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/kogan-pack-656b48178/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area">
+           	<div class="container box_1620">
+           		<div class="banner_inner d-flex align-items-center">
+					<div class="banner_content">
+						<div class="media">
+							<div class="d-flex">
+								<img src="img/profilePic.jpeg" alt="Kogan Pack Profile Picture">
+							</div>
+							<div class="media-body">
+								<div class="personal_text">
+									<h6>Hello, I'm</h6>
+									<h3>Kogan Pack</h3>
+									<h4>Web Developer</h4>
+									<p>Currently working freelance, I'm looking for a full-time position with a great team.</p>
+									<ul class="list basic_info">
+										<li><i class="lnr lnr-phone-handset"></i>(615) 715 1955</a></li>
+										<li><i class="lnr lnr-envelope"></i> koganp42@gmail.com</a></li>
+										<li><i class="lnr lnr-home"></i> Nashville, TN</a></li>
+									</ul>
+									<ul class="list personal_social">
+										<li><a href="https://github.com/koganp42"><i class="fa fa-github"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/kogan-pack-656b48178/"><i class="fa fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
             </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        <!--================Welcome Area =================-->
+        <section class="welcome_area p_120">
+        	<div class="container">
+        		<div class="row welcome_inner">
+        			<div class="col-lg-6">
+        				<div class="welcome_text">
+        					<h4>About Me</h4>
+        					<p>Full-stack web developer with a background in legal editing and office administration. </p>
+        				</div>
+        			</div>
+        			<div class="col-lg-6">
+        				<div class="tools_expert">
+        					<div class="skill_main">
+								<div class="skill_item">
+									<h4>JavaScript <span class="counter">70</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Node.js <span class="counter">75</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>MySQL & MongoDB <span class="counter">80</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>CSS, Bootstrap <span class="counter">60</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>React.js <span class="counter">40</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Welcome Area =================-->
+        
+        <!--================My Tabs Area =================-->
+        <section class="mytabs_area p_120">
+        	<div class="container">
+        		<div class="tabs_inner">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Experiences</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Education</a>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<ul class="list">
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>February 2020 to present</p>
+										</div>
+										<div class="media-body">
+											<h4>N/A</h4>
+											<p>Freelance Web Developer</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>February 2013 to February 2020</p>
+										</div>
+										<div class="media-body">
+											<h4>Tennessee Department of Labor - Unemployment Appeals Tribunal</h4>
+											<p>Legal Editor <br />Nashville, TN</p>
+										</div>
+									</div>
+								</li>
+								<li>
+								<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<!-- <p>Duration</p> -->
+										</div>
+										<div class="media-body">
+											<!-- <h4>Colorlib</h4>
+											<p>Title <br />Location</p> -->
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+							<ul class="list">
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>2019 - 2020</p>
+										</div>
+										<div class="media-body">
+											<h4>Web Development Bootcamp</h4>
+											<p>at Vanderbilt University <br />HTML5, CSS3, JavaScript, jQuery, Bootstrap, MySQL, MongoDB, React.js, Node.js, <br /> Express.js, MERN Stack, Agile Development, Heroku, Git, and QA</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>August 2008 to December 2012</p>
+										</div>
+										<div class="media-body">
+											<h4>Middle Tennessee State University</h4>
+											<p>Bachelor of Arts in English Literature  <br />Murfreesboro, Tennessee</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p></p>
+										</div>
+										<div class="media-body">
+											<h4></h4>
+											<p></p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End My Tabs Area =================-->
+        
+        <!--================Home Gallery Area =================-->
+        <section class="home_gallery_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Some of My Recent Projects</h2>
+        		</div>
+        	</div>
+        	<div class="container">
+        		<div class="gallery_f_inner row imageGallery1">
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/InnerJoinProject.png" alt="Inner Join Project Picture">
+        						<a class="light" href="https://immense-hamlet-86412.herokuapp.com/"><img src="img/gallery/icon.png" alt="Inner Join Project Highlighted Image"></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Inner Join Dating App</h4>
+        						<p>A Dating App for Developers!</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/outer-earth-pic.png" alt="Outer Earth Project Image">
+        						<a class="light" href="https://koganp42.github.io/Outer_Earth/"><img src="img/gallery/icon.png" alt="Outer Earth Project Highlighted Image"></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Outer Earth</h4>
+        						<p>An Interactive Website for Science Education</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/EatABurger.png" alt="Eat A Burger App">
+        						<a class="light" href="https://dry-hamlet-34142.herokuapp.com/"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Eat A Burger</h4>
+        						<p>An App to Demonstrate the Use of Node.js, MySQL/Sequelize ORM, and Handlebars View Controller.</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand creative print">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/note-taker-example.png" alt="Note Taker App Picture">
+        						<a class="light" href="https://github.com/koganp42/Note_Taker"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Note Taker App</h4>
+        						<p>A Web App That Uses Local Storage to Support a Basic Note-Taking App</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/weather-app-pic.png" alt="Weather App Picture">
+        						<a class="light" href="https://koganp42.github.io/weather-forecaster/"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Weather App</h4>
+        						<p>A Weather Forecasting App</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand creative">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/StarWarsQuiz.png" alt="Star Wars Quiz Pic">
+        						<a class="light" href="https://koganp42.github.io/starWarsQuizGame/"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Star Wars Quiz</h4>
+        						<p>Find Out Just How Big Of A Fan You Really Are</p>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Home Gallery Area =================-->
+        
+        
+        <!--================Footer Area =================-->
+        <footer class="footer_area p_120">
+        	<div class="container">
+        		<div class="row footer_inner">
+        			<div class="col-lg-5 col-sm-6">
+        				<aside class="f_widget ab_widget">
+        					<div class="f_title">
+        						<h3>About Me</h3>
+        					</div>
+        					<p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+        					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        				</aside>
+        			</div>
+        			<div class="col-lg-5 col-sm-6">
+        				<aside class="f_widget news_widget">
+        					<div class="f_title">
+        						<h3>Newsletter</h3>
+        					</div>
+        					<p>Stay updated with our latest trends</p>
+        					<div id="mc_embed_signup">
+                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                                	<div class="input-group d-flex flex-row">
+                                        <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                        <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>		
+                                    </div>				
+                                    <div class="mt-10 info"></div>
+                                </form>
+                            </div>
+        				</aside>
+        			</div>
+        			<div class="col-lg-2">
+        				<aside class="f_widget social_widget">
+        					<div class="f_title">
+        						<h3>Follow Me</h3>
+        					</div>
+        					<p>Let us be social</p>
+        					<ul class="list">
+        						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+        						<li><a href="#"><i class="fa fa-behance"></i></a></li>
+        					</ul>
+        				</aside>
+        			</div>
+        		</div>
+        	</div>
         </footer>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
+        <!--================End Footer Area =================-->
+        
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
 </html>
